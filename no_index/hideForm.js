@@ -1,3 +1,0 @@
-function hideForm() {
-    $("form").hide();
-  }

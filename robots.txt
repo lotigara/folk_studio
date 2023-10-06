@@ -1,2 +1,8 @@
 User-agent: *
-Disallow: /content
+Disallow: /no_index/
+Disallow: /slick/
+Disallow: /Style/
+Disallow: /.htaccess
+Disallow: /err404.html
+Disallow: /README.md
+Disallow: /robots.txt

@@ -108,6 +108,9 @@ input[type="radio"]:checked + label:after {
 	box-sizing: border-box;
 	max-width: 100%;
 }
+.first_text{
+	margin-top: 60px;
+}
 input{
 	box-sizing: border-box;
 	max-width: 100%;
@@ -211,10 +214,10 @@ body {
 footer{
 	position: fixed;
 	bottom: 0;
-	left: 50%;
+	width: 100;
 }
 header{
 	position: fixed;
 	top: 0;
-	left: 50%;
+	width: 100;
 }

@@ -218,9 +218,11 @@ footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	padding-top: 60;
 }
 header{
 	position: fixed;
 	top: 0;
 	width: 100%;
+	padding-top: 60;
 }

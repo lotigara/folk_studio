@@ -109,7 +109,7 @@ input[type="radio"]:checked + label:after {
 	max-width: 100%;
 }
 h1#contacts {
-	margin-top: 30%;
+	margin-top: 38%;
 }
 input{
 	box-sizing: border-box;

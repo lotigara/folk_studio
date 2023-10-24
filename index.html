@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="Style/style.css">
 		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<link rel="import" href="/no_index/header.html">
+		<link rel="import" href="/no_index/footer.html">
         	<script type="text/javascript" src="slick/slick.min.js"></script>
         	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -21,24 +23,21 @@
 		<title>Студия дизайна и архитектуры Folk</title>
 	</head>
 	<body>
-		<header>
-			<div class="logo">
-				<h1 class="text">Студия дизайна и архитектуры 
-					<img class="header" src="no_index/folk_logo_header.png" alt="Folk">
-				</h1>
-				<cite class="text">Необычные проекты для необычных людей.</cite>
-			</div>
-		</header>
+		<script>
+			var link = document.querySelector('link[rel=import]');
+			var content = link.import.querySelector('#header');
+			document.body.appendChild(content.cloneNode(true));
+		</script>
 		<div class="main" id="main">
 			<h1 class="text">Вы можете связаться с нами:</h1>
 			<div class="text">Телефон: +7(918)-588-11-60</div>
 			<div class="text">Instagram: <a href="https://www.instagram.com/folkstudio.dsgn" target="_blank">@folkstudio.dsgn</a></div>
 			<div class="text">Электронная почта: <a href="mailto:folk.studio@yandex.ru" target="_blank">folk.studio@yandex.ru</a></div>
 		</div>
-		<footer>
-        		<p class="text">Студия дизайна Folk (Фолк)</p>
-        		<p class="text">Россия, Ростовская область, г. Батайск, ул. Ворошилова 147, офис 4. 346880</p>
-			<div class="text"><a href="https://github.com/lotigara/folk_studio" target="_blank">Исходный код</a></div>
-		</footer>
+		<script>
+			var link = document.querySelector('link[rel=import]');
+			var content = link.import.querySelector('#footer');
+			document.body.appendChild(content.cloneNode(true));
+		</script>
 	</body>
 </html>

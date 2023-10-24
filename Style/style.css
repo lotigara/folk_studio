@@ -108,17 +108,8 @@ input[type="radio"]:checked + label:after {
 	box-sizing: border-box;
 	max-width: 100%;
 }
-.first_text{
-	box-sizing: border-box;
-	max-width: 100%;
-	margin-top: 200px;
-}
-h1.first_text {
-	color:black;
-	font-family: 'ISOCPEUR', sans-serif;
-	max-width: 100%;
-	margin: 10px;
-	margin-top: 200px;
+h1#contacts {
+	margin-top: 20%;
 }
 input{
 	box-sizing: border-box;
@@ -152,16 +143,9 @@ button.text:active:focus {
 	box-shadow: 0 0 0 4px #b6a895;
 	max-width: 100%;
 }
-footer, header{
-	background-color: #ffffff;
-	max-width: 100%;
-	background-repeat: repeat;
-	/*padding: 15px;*/
-}
 h1.text {
 	color:black;
 	font-family: 'ISOCPEUR', sans-serif;
-	max-width: 100%;
 	margin: 10px;
 }
 div.text {
@@ -222,15 +206,17 @@ body {
 	width: 1400;
 }
 footer{
+	width: 100%;
 	position: fixed;
 	bottom: 0;
-	width: 100%;
-	padding-bottom: 30px;
-	margin-top: 10%;
+	background: white;
+	padding-bottom: 10px;
 }
 header{
 	position: fixed;
-	top: 0;
+`	top: 0;
 	width: 100%;
-	margin-bottom: 200;
+	margin-top: 0;
+	background: white;
+	padding: 10px;	
 }

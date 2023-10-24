@@ -9,11 +9,21 @@
 		<link rel="stylesheet" href="Style/style.css">
 		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-		<link rel="import" href="/no_index/header.html">
-		<link rel="import" href="/no_index/footer.html">
+		<link rel="import" href="no_index/header.html">
+		<link rel="import" href="no_index/footer.html">
         	<script type="text/javascript" src="slick/slick.min.js"></script>
-        	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        	<script type="text/javascript" src="no_index/jquery.js"></script>
         	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script> 
+			$(function(){
+			$("#header").load("no_index/header.html"); 
+			});
+		</script>
+		<script> 
+			$(function(){
+			$("#footer").load("no_index/footer.html"); 
+			});
+		</script>
 		<script type="text/javascript" src="no_index/script.js"></script>
         <script>
             $('.single-slide').slick({
@@ -23,21 +33,17 @@
 		<title>Студия дизайна и архитектуры Folk</title>
 	</head>
 	<body>
-		<script>
-			var link = document.querySelector('link[rel=import]');
-			var content = link.import.querySelector('#header');
-			document.body.appendChild(content.cloneNode(true));
-		</script>
+
+		<div id="header"></div>
+
 		<div class="main" id="main">
 			<h1 class="text">Вы можете связаться с нами:</h1>
 			<div class="text">Телефон: +7(918)-588-11-60</div>
 			<div class="text">Instagram: <a href="https://www.instagram.com/folkstudio.dsgn" target="_blank">@folkstudio.dsgn</a></div>
 			<div class="text">Электронная почта: <a href="mailto:folk.studio@yandex.ru" target="_blank">folk.studio@yandex.ru</a></div>
 		</div>
-		<script>
-			var link = document.querySelector('link[rel=import]');
-			var content = link.import.querySelector('#footer');
-			document.body.appendChild(content.cloneNode(true));
-		</script>
+
+		<div id="footer"></div>
+
 	</body>
 </html>

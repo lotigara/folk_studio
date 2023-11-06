@@ -109,7 +109,7 @@ input[type="radio"]:checked + label:after {
 	max-width: 100%;
 }
 h1#main {
-	margin-top: 46%;
+	margin-top: 200px;
 }
 input{
 	box-sizing: border-box;

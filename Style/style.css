@@ -1017,7 +1017,7 @@ footer {
   position: fixed;
   bottom: 0;
   max-width: 100%;
-  background-color: white;
+  background-color: black;
   padding: 12px;
   margin-top: 5vh; }
   footer > * {
